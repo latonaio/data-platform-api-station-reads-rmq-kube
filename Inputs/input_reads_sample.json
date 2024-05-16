@@ -1,0 +1,114 @@
+{
+	"connection_key": "request",
+	"result": true,
+	"redis_key": "abcdefg",
+	"filepath": "/var/lib/aion/Data/rededge_sdc/abcdef.json",
+	"api_status_code": 200,
+	"runtime_session_id": "boi9ar543dg91ipdnspi099u231280ab0v8af0ew",
+	"business_partner": 1001,
+	"service_label": "STATION",
+	"api_type": "reads",
+	"Station": {
+		"Station": 1,
+		"StationType": "TEST",
+		"StationOwner": 1,
+		"StationOwnerBusinessPartnerRole": "SHOP",
+		"PrimaryLine": 1,
+		"PersonResponsible": "TEST",
+		"URL": "https://test.co.jp",
+		"ValidityStartDate": "2024-04-01",
+		"ValidityEndDate": "9999-12-31",
+		"DailyOperationStartTime": "5:00:00",
+		"DailyOperationEndTime": "1:00:00",
+		"Description": "Test Station",
+		"LongText": "Test Station Long Text",
+		"Introduction": "Test Station Introduction",
+		"OperationRemarks": "Test Operation Remarks",
+		"PhoneNumber": "03-0000-0000",
+		"AvailabilityOfParking": true,
+		"NumberOfParkingSpaces": 300,
+		"Site": 1,
+		"SiteType": "0006",
+		"Airport": null,
+		"Project": null,
+		"WBSElement": null,
+		"Tag1": "",
+		"Tag2": "",
+		"Tag3": "",
+		"Tag4": "",
+		"CreationDate": "",
+		"CreationTime": "",
+		"LastChangeDate": "",
+		"LastChangeTime": "",
+		"CreateUser": 401,
+		"LastChangeUser": 401,
+		"IsReleased": null,
+		"IsMarkedForDeletion": null,
+		"HeaderDoc": [
+			{
+				"DocType": "",
+				"DocVersionID": null,
+				"DocID": "",
+				"FileExtension": "",
+				"FileName": "",
+				"FilePath": "",
+				"DocIssuerBusinessPartner": null
+			}
+		],
+		"Partner": [
+			{
+				"PartnerFunction": "",
+				"BusinessPartner": null,
+				"BusinessPartnerFullName": "",
+				"BusinessPartnerName": "",
+				"Organization": "",
+				"Country": "",
+				"Language": "",
+				"Currency": "",
+				"ExternalDocumentID": "",
+				"AddressID": null,
+				"EmailAddress": ""
+			}
+		],
+		"Address": [
+			{
+				"AddressID": null,
+				"PostalCode": "",
+				"LocalSubRegion": "",
+				"LocalRegion": "",
+				"Country": "",
+				"GlobalRegion": "",
+				"District": "",
+				"TimeZone": "",
+				"StreetName": "",
+				"CityName": "",
+				"Building": "",
+				"Floor": null,
+				"Room": null,
+				"XCoordinate": null,
+				"YCoordinate": null,
+				"ZCoordinate": null,
+				"Site": 1
+			}
+		],
+		"RailwayLine": [
+			{
+				"RailwayLine": 1,
+				"ValidityStartDate": "2024-04-01",
+				"ValidityEndDate": "9999-12-31",
+				"CreationDate": "",
+				"CreationTime": "",
+				"LastChangeDate": "",
+				"LastChangeTime": "",
+				"CreateUser": 401,
+				"LastChangeUser": 401,
+				"IsReleased": null,
+				"IsMarkedForDeletion": null
+			}
+		]
+	},
+	"api_schema": "DPFMStationReads",
+	"accepter": [
+		"Header"
+	]
+}
